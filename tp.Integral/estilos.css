@@ -1,0 +1,268 @@
+*{padding:0; margin:0; font-family:verdana;}
+
+/*COMIENZO HEADER*/
+header{
+	width:100%;
+	height:500px;
+	background:black;
+}
+
+#top{
+	background:white;
+	height:105px;
+	box-shadow:0 2px 2px rgba(0,0,0,0.3);
+}
+
+#top img{
+	width:101px;
+	margin-left:550px;
+	margin-top:5px;
+	float:left;
+}
+
+nav{
+	float:right;
+}
+
+nav ul li{
+	float:left;
+	list-style:none;
+	padding:25px 0;
+	margin-top:15px;
+	margin-left:25px;
+	margin-right:35px;	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	padding:10px 15px;
+	border-radius:15px;
+}
+
+nav li a:hover{
+	background:black;
+	color:white;
+}
+#banner{
+	background-image:url(images/banner.jpg);
+	width:100%;
+}
+
+#banner p{
+	color:white;
+	text-align:center;
+	padding:180px;
+	font-size:25px;
+}
+/*FIN HEADER*/
+
+/*PRODUCTOS*/
+
+#p1{
+	background:yellow;
+	width:2500px;
+	height:1450px;
+	margin:0 auto;
+}
+
+.title1{
+	text-decoration:none;
+	color:black;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:50px;
+	font-size:3.0em;
+	letter-spacing:3px;
+}
+
+.tienda{
+	display:flex;
+	justify-content:space-between;
+}
+
+.images1{
+	width:620px
+}
+
+.conte{
+	width:620px;
+	background:black;
+}
+
+.body-conte{
+	width:620px;
+	height:220px;
+	padding-top:25px;
+	font-size:1.9em;
+	background:black;
+	color:white;
+	text-align:center;
+}
+
+.text1{
+	text-align:center;
+	font-size:1em;
+	margin-bottom:35px;
+}
+
+.link{
+	text-decoration:none;
+	font-weight:bold;
+	padding:15px;
+	margin-top:50px;
+	color:white;
+	border-radius:15px;
+}
+
+.link:hover{
+	background:white;
+	color:black;
+}
+
+.more{
+	text-decoration:none;
+	font-size:2.5em;
+	font-weight:bold;
+	padding:25px;
+	margin-top:50px;
+	margin-right:25px;
+	color:white;
+	float:right;
+	background:black;
+	border-radius:15px;
+}
+
+.more:hover{
+	background:white;
+	color:black;
+}
+/*FIN*/
+
+/*ARMA TU PULSERA*/
+#arm{
+	width:2500px;
+	height:1700px;
+	background:blue;
+	margin:0 auto;
+}
+
+.opcions{
+	display:flex;
+	justify-content:space-between;
+}
+
+.title2{
+	text-align:center;
+	font-size:3em;
+}
+
+.images2{
+	width:1050px;
+	padding-top:60px;
+	margin-bottom:25px;
+}
+
+.conte-opcions p{
+	font-size:3.5em;
+	color:black;
+	text-align:center;
+}
+
+
+.conte-opcions a{
+	text-decoration:none;
+	font-size:1em;
+	color:white;
+	background:black;
+	padding:15px;
+	border-radius:15px;
+}
+
+.conte-opcions a:hover{
+	background:white;
+	color:black;
+}
+
+/*FIN*/
+	
+/*LOGIN*/
+#log{
+	width:2500px;
+	height:700px;
+	background:green;
+	margin:0 auto;
+}
+
+#log h1{
+	font-size:1.5em;
+}
+
+#formulario{
+	width:900px;
+	height:500px;
+	margin:0 auto;
+	background:white;
+
+}
+
+.imput-contenedor{
+	padding-bottom:15px;
+	border:1px solid #aaa;
+}
+
+.icono{
+	width:80px;
+	text-align:center;
+}
+
+.ajustar{
+	width:250px;
+	padding:25px;
+	border:none;
+}
+
+#check{
+	margin:25px;
+}
+
+
+.button{
+	margin:25px;
+	padding:5px;
+	border:1px solid #000;
+	color:white;
+	background:black;
+
+}
+
+#sesion{
+	text-align:center;
+}
+/*FIN*/
+
+/*ENCUESTAS*/
+#encuestas{
+	width:2500px;
+	height:1700px;
+	background:red;
+	margin:0 auto;
+}
+/*FIN*/
+
+/*EQUIPO*/
+#team{
+	width:2500px;
+	height:1200px;
+	background:coral;
+	margin:0 auto;
+}
+/*FIN*/
+
+/*FOOTER*/
+footer{
+	width:100%;
+	height:500px;
+	background:grey;
+}
+/*FIN*/
